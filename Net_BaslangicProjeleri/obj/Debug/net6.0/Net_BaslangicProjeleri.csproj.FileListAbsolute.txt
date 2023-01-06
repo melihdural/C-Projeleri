@@ -1,0 +1,15 @@
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.csproj.AssemblyReference.cache
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.GeneratedMSBuildEditorConfig.editorconfig
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.AssemblyInfoInputs.cache
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.AssemblyInfo.cs
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.csproj.CoreCompileInputs.cache
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/bin/Debug/net6.0/Net_BaslangicProjeleri
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/bin/Debug/net6.0/Net_BaslangicProjeleri.deps.json
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/bin/Debug/net6.0/Net_BaslangicProjeleri.runtimeconfig.json
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/bin/Debug/net6.0/Net_BaslangicProjeleri.dll
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/bin/Debug/net6.0/Net_BaslangicProjeleri.pdb
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.dll
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/refint/Net_BaslangicProjeleri.dll
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.pdb
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/Net_BaslangicProjeleri.genruntimeconfig.cache
+/Users/melihdural/Documents/Repos/MelihPersonal/Net_BaslangicProjeleri/Net_BaslangicProjeleri/obj/Debug/net6.0/ref/Net_BaslangicProjeleri.dll
