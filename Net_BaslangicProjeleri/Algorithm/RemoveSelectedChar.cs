@@ -4,8 +4,14 @@ public class RemoveSelectedChar
 {
     private string _newWord = String.Empty;
     
-    public string Remove(int order, string word)
+    public void Remove()
     {
+        Console.WriteLine("Insert a Word");
+        var word = Console.ReadLine();
+        Console.WriteLine("Insert a char index that remove from your word");
+        var order = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Your Word and Remove Order: {0},{1}", word,order);
+        
         var charArray = word.ToCharArray();
         foreach (var c in charArray)
         {
@@ -13,6 +19,7 @@ public class RemoveSelectedChar
                 _newWord += c;
         }
 
-        return _newWord;
+        Console.WriteLine("Removed Word: {0}", _newWord);
+        Console.WriteLine();
     }
 }

@@ -2,7 +2,7 @@ namespace Net_BaslangicProjeleri.AvarageOfFibonacciSeries;
 
 public class AvarageCalculator
 {
-    public string Avarage()
+    public void Avarage()
     {
         int length = 0;
         float overall = 0;
@@ -21,7 +21,11 @@ public class AvarageCalculator
         }
         
         
-        return String.Format("{0:0,0}", overall/fibonacciSeries.Length);
+        var average = $"{overall / fibonacciSeries.Length:0,0}";
+        
+        Console.WriteLine();
+        Console.WriteLine("Average of FibonacciSeries = {0}", average);
+        Console.WriteLine();
             
     }
 }

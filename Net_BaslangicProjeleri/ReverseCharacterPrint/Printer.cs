@@ -3,8 +3,11 @@ namespace Net_BaslangicProjeleri.ReverseCharacterPrint;
 public class Printer
 {
     string _newWord = String.Empty;
-    public string Reverser(string sentence)
+    public void Reverser()
     {
+        Console.WriteLine("Type a Sentence");
+        var sentence = Console.ReadLine();
+        
         var charArray = sentence.Split(' ');
         foreach (var s in charArray)
         {
@@ -24,6 +27,7 @@ public class Printer
             _newWord += ' ';
         }
 
-        return _newWord;
+        Console.WriteLine(_newWord);
+        Console.WriteLine();
     }
 }
