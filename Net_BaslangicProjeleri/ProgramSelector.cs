@@ -2,6 +2,8 @@ using Net_BaslangicProjeleri.Absolute_Squaring;
 using Net_BaslangicProjeleri.Algorithm;
 using Net_BaslangicProjeleri.AvarageOfFibonacciSeries;
 using Net_BaslangicProjeleri.CalculationOfIntegerPairs;
+using Net_BaslangicProjeleri.CharacterChanger;
+using Net_BaslangicProjeleri.ConsonantCharacter;
 using Net_BaslangicProjeleri.CreateShape;
 using Net_BaslangicProjeleri.ReverseCharacterPrint;
 
@@ -19,6 +21,8 @@ public class ProgramSelector
         Console.WriteLine("[4] Calculate a Shape Area");
         Console.WriteLine("[5] Calculate Integers");
         Console.WriteLine("[6] Absolute Squaring");
+        Console.WriteLine("[7] Character Replacement");
+        Console.WriteLine("[8] Check Constant Character");
         
         Console.WriteLine("[Q] Quit");
 
@@ -100,6 +104,22 @@ public class ProgramSelector
                 Console.WriteLine("Absolute Squaring");
                 var absoluteSquaring = new AbsoluteSquare();
                 absoluteSquaring.AbsoluteSquaring();
+                
+                Select();
+                break;
+            
+            case "7":
+                Console.WriteLine("Character Replacement");
+                var character = new CharacterReplacement();
+                character.Replace();
+                
+                Select();
+                break;
+            
+            case "8":
+                Console.WriteLine("Check Constant");
+                var checker = new CheckConsonant();
+                checker.Check();
                 
                 Select();
                 break;
