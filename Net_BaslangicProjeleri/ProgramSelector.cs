@@ -10,25 +10,27 @@ public class ProgramSelector
     public void Select()
     {
         Console.WriteLine("Select a Project Which You Want");
-        Console.WriteLine("[0] Avarage of Fibonacci Series");
-        Console.WriteLine("[1] Create a Rectangle");
-        Console.WriteLine("[2] Create a Circle");
-        Console.WriteLine("[3] Algorithm");
-        Console.WriteLine("[4] Reverse Character Print");
+        Console.WriteLine("[0] Average of Fibonacci Series");
+        Console.WriteLine("[1] Create a Shape");
+        Console.WriteLine("[2] Algorithm");
+        Console.WriteLine("[3] Reverse Character Print");
+        Console.WriteLine("[4] Calculate a Shape Area");
+        
         Console.WriteLine("[Q] Quit");
 
         var input = Console.ReadLine();
-        if (input == "Q" || input == "q")
+        if (input is "Q" or "q")
         {
             Console.WriteLine("Good Bye!");
             return;
         }
 
-        Program(input);
+        if (input != null) Program(input);
     }
 
     void Program(string input)
     {
+        Shape? shape;
         switch (input)
         {
             case "0":
@@ -43,24 +45,13 @@ public class ProgramSelector
                 
             case "1":
                 Console.WriteLine("Draw Shapes");
-                Shape rectangle = new Rectangle();
-                Console.WriteLine("Insert a size for Rectangle");
-                var size = Int32.Parse(Console.ReadLine());
-                rectangle.Draw(size);
-                Console.WriteLine();
+                
+                shape = SelectShape.Select();
+                if (shape != null) SelectShape.StartDrawProgram(shape);
                 Select();
                 break;
-                
+
             case "2":
-                Console.WriteLine("Insert a redius for Circle");
-                var radius = Int32.Parse(Console.ReadLine());
-                Shape circle = new Circle();
-                circle.Draw(radius);
-                Console.WriteLine();
-                Select();
-                break;
-                
-            case "3":
                 Console.WriteLine("Algorithm");
 
                 Console.WriteLine("Insert a Word");
@@ -75,7 +66,7 @@ public class ProgramSelector
                 Select();
                 break;
                 
-            case "4":
+            case "3":
                 Console.WriteLine("Reverse Character Printing");
                 Console.WriteLine("Type a Sentence");
                 var sentence = Console.ReadLine();
@@ -85,6 +76,20 @@ public class ProgramSelector
                 var newSentence = reversePrinter.Reverser(sentence);
                 Console.WriteLine(newSentence);
                 Console.WriteLine();
+                Select();
+                break;
+            
+            case "4":
+                Console.WriteLine("Calculate Shapes Area");
+
+                Console.WriteLine("What Calculation Did You Want?");
+                Console.WriteLine("[1] Area");
+                Console.WriteLine("[2] Perimeter");
+                Console.WriteLine("[3] Volume");
+                var calculation = Console.ReadLine();
+                
+                shape = SelectShape.Select();
+                if (shape != null) SelectShape.StartCalculationProgram(shape, calculation);
                 Select();
                 break;
         }
