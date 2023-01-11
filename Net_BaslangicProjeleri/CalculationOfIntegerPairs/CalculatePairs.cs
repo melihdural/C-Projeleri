@@ -1,4 +1,4 @@
-namespace Net_BaslangicProjeleri.CalculationOfIntegers;
+namespace Net_BaslangicProjeleri.CalculationOfIntegerPairs;
 
 public class CalculatePairs
 {
@@ -16,7 +16,6 @@ public class CalculatePairs
             var sum = Int32.Parse(pairs[0]) + Int32.Parse(pairs[1]);
             if (pairs[0] == pairs[1])
             {
-                            
                 sumsOfIntegers.Add((int)MathF.Pow(sum,2));
             }
             else

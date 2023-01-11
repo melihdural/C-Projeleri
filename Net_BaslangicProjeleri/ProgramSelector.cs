@@ -1,6 +1,7 @@
+using Net_BaslangicProjeleri.Absolute_Squaring;
 using Net_BaslangicProjeleri.Algorithm;
 using Net_BaslangicProjeleri.AvarageOfFibonacciSeries;
-using Net_BaslangicProjeleri.CalculationOfIntegers;
+using Net_BaslangicProjeleri.CalculationOfIntegerPairs;
 using Net_BaslangicProjeleri.CreateShape;
 using Net_BaslangicProjeleri.ReverseCharacterPrint;
 
@@ -17,6 +18,7 @@ public class ProgramSelector
         Console.WriteLine("[3] Reverse Character Print");
         Console.WriteLine("[4] Calculate a Shape Area");
         Console.WriteLine("[5] Calculate Integers");
+        Console.WriteLine("[6] Absolute Squaring");
         
         Console.WriteLine("[Q] Quit");
 
@@ -91,6 +93,14 @@ public class ProgramSelector
 
                 var calculatePairs = new CalculatePairs();
                 calculatePairs.Calculate();
+                Select();
+                break;
+            
+            case "6":
+                Console.WriteLine("Absolute Squaring");
+                var absoluteSquaring = new AbsoluteSquare();
+                absoluteSquaring.AbsoluteSquaring();
+                
                 Select();
                 break;
         }
